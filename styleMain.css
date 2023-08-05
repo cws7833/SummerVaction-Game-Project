@@ -1,0 +1,44 @@
+/*시작화면 배치 구조*/
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    margin: 0;
+}
+
+#canvasDiv{
+    z-index: 1;
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    background-color: #000;
+}
+
+#startBtn{
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    height: 3vw;
+    border-radius: 20px;
+    right: 40vw;
+    top: 30vw;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    color: #ffffff;
+    font-size: 4vw;
+}
+
+#exitBtn{
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    height: 3vw;
+    border-radius: 20px;
+    right: 40vw;
+    top: 10vw;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    color: #ffffff;
+    font-size: 4vw;
+}
