@@ -1,5 +1,4 @@
 //미연시 게임 엔진
-//test
 class TextGame {
     //생성자
     constructor() {
