@@ -18,7 +18,7 @@ class TextGame {
     //분기 추가
     //branch: Branch
     addBranch(branch) {
-        this._branchManager.addBranch(branch);
+        this._branchManager.addBranch(branch); // 테스트 주석
     }
 
     setTextBarElement(chatBox, nameBox) {
